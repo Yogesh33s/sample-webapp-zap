@@ -18,7 +18,7 @@ jobs:
         uses: zaproxy/action-baseline@v0.9.0
         with:
           target: 'https://sample-webapp-acixn1pzb-yogeshs-projects-58fc2360.vercel.app'
-          docker_name: 'owasp/zap2docker-stable'
+         
           cmd_options: '-a'
 
       - name: Show files
